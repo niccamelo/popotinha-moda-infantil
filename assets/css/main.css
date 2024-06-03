@@ -1,0 +1,197 @@
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    content: '';
+    padding: .5rem;
+    border: solid #89abb4 1px;
+    border-radius: 5rem;
+    margin: 1rem;
+    height: 600px;
+    contain: '';
+}
+
+#cards {
+    overflow: auto;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #898989; 
+    object-fit: cover;
+    z-index: 1;
+}
+
+.text-title {
+    display: flex;
+    justify-content: center;
+    color: #d19b7a;
+    align-items: center;
+}
+
+.cardInverno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+
+.deleteButton {
+    border-radius: 10rem;
+    background: #fdd1b6;
+    border: #d19b7a;
+    width: 60px;
+    height: 20px;
+    margin: 1rem;
+    color: #89abb4;
+    font-size: 8px;
+    align-items: end;
+}
+
+.d-grid {
+    width: 100%;
+    padding: 1rem;
+}
+
+.d-grid button {
+    border-radius: 10rem;
+    background: #89abb4;
+    border: #36626e;
+    width: 100px;
+    height: 90px;
+}
+
+.d-grid button:hover {
+    background: #36626e;
+    border: #89abb4;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    margin: .5rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+
+.col {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+
+}
+
+.col h5{
+    color: #d19b7a;
+    font-size: 18px;
+}
+
+.col p {
+    color: #89abb4;
+    font-size: 12px;
+}
+
+.modal-content {
+    background: #f8e6da;
+    color: #36626e;
+}
+.modal-content input {
+    background: transparent;
+    border: solid #d19b7a;
+}
+
+.modal-content #formFile {
+    background: transparent;
+    border: solid #d19b7a;
+}
+
+.modal-footer #adicionar {
+    background: #36626e;
+    border: #89abb4;
+}
+
+.modal-footer #adicionaVerao{
+    background: #36626e;
+    border: #89abb4;
+}
+
+ @media only screen and (max-width: 748px) {
+    
+    .col {
+
+    
+        width: 100px;
+    }
+
+    .deleteButton {
+        width: 40px;
+        height: 10px;
+        font-size: 6px;
+        margin: .5rem;
+    }
+
+    .cards {
+        padding: .5rem;
+    }
+    .card {
+        width:200px ;
+        margin: .5rem;
+    }
+
+    .card img {
+        
+        padding: 0;
+    }
+
+    .card-body {
+        
+        padding: .2rem;
+    }
+
+    .card p, small {
+        font-size: 6px;
+    }
+
+    .card p {
+        margin: 0;
+        padding:0;
+    }
+
+    .card h5 {
+        font-size: 8px;
+    }
+
+    .text-title {
+        justify-content: left;
+    }
+
+    .card-footer {
+        
+        padding: .2rem;
+    }
+
+    .d-grid {
+        flex-direction: row;
+    }
+ 
+    .d-grid button {
+        border-radius: 10rem;
+        background: #89abb4;
+        border: #36626e;
+        width: 50px;
+        height: 50px;
+    }
+
+    .text-title h1{
+        font-size: 16px;
+    }
+}

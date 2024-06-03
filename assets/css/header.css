@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #fdd1b6; 
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    padding: auto;
+}
+
+
+.midias, a {
+    padding: .5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.midias, a:hover {
+    color: #c7b6be;
+}
+
+.text-sale {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: #fff;
+    justify-content: center;
+}
+
+.text-sale, h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p {
+    margin-top: none;
+    margin-bottom: none;
+}
+
+@media only screen and (max-width: 748px) {
+   .header {
+        font-size: 8px;
+    }
+    h6 {
+        font-size: 8px;
+    }
+}
